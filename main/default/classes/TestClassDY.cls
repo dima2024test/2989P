@@ -5,13 +5,15 @@ public class TestClassDY implements Database.Batchable<SObject> {
 
     public void execute(Database.BatchableContext BC, List<SObject> scope) {
         try {
-            Integer i = 2 / 0;
+            Integer i = 3 / 0;
         } catch (Exception e) {
-            for (Integer j = 0; j < 1; j++) {
+            for (Integer j = 0; j < 3; j++) {
+                
+                
                 Triton.log(Triton.t
                     .area(TritonTypes.Area.Accounts)
                     .exception(e)
-                    .level(TritonTypes.Level.ERROR));
+                    .level(TritonTypes.Level.FINER));
             }
             Triton.flush();
         }
