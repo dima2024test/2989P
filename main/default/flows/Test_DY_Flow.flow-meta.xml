@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <description>Source:Test_Create_opp,0,0|Target:null,0,0</description>
+        <name>h_3c1410ba5b572e030a080f7d7d11d93f_PostLog</name>
+        <label>Log After: Test Create opp</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <actionName>TritonFlow</actionName>
+        <actionType>apex</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>category</name>
+            <value>
+                <stringValue>Flow</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>type</name>
+            <value>
+                <stringValue>tste4</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>area</name>
+            <value>
+                <stringValue>test556</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>summary</name>
+            <value>
+                <stringValue>Log After: Test Create opp</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>details</name>
+            <value>
+                <stringValue>Executed: Log After: Test Create opp</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>interviewGUID</name>
+            <value>
+                <stringValue>{!$Flow.InterviewGuid}</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>flowApiName</name>
+            <value>
+                <stringValue>Test_DY_Flow</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>flowVersion</name>
+            <value>
+                <stringValue>2</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>operation</name>
+            <value>
+                <stringValue>Record Create</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>level</name>
+            <value>
+                <stringValue>DEBUG</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>stacktrace</name>
+            <value>
+                <stringValue>{!h_4dbb75a3190bbae603d30d64ab419850_Pharos_Template}</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>fullStacktrace</name>
+            <value>
+                <stringValue>{!Pharos_Full_Stacktrace}</stringValue>
+            </value>
+        </inputParameters>
+        <outputParameters>
+            <assignToReference>Pharos_Full_Stacktrace</assignToReference>
+            <name>fullStacktrace</name>
+        </outputParameters>
+    </actionCalls>
+    <actionCalls>
+        <description>Source:Start,0,0|Target:Test_Create_opp,0,0</description>
+        <name>h_537a98a1b6823cf5351e0c10fe33e4c2_PostPreLog</name>
+        <label>Log After: Start, Before: Test Create opp</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <actionName>TritonFlow</actionName>
+        <actionType>apex</actionType>
+        <connector>
+            <targetReference>Test_Create_opp</targetReference>
+        </connector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>category</name>
+            <value>
+                <stringValue>Flow</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>type</name>
+            <value>
+                <stringValue>tste4</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>area</name>
+            <value>
+                <stringValue>test556</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>summary</name>
+            <value>
+                <stringValue>Log After: Start, Before: Test Create opp</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>details</name>
+            <value>
+                <stringValue>Executed: Log After: Start, Before: Test Create opp</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>interviewGUID</name>
+            <value>
+                <stringValue>{!$Flow.InterviewGuid}</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>flowApiName</name>
+            <value>
+                <stringValue>Test_DY_Flow</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>flowVersion</name>
+            <value>
+                <stringValue>2</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>operation</name>
+            <value>
+                <stringValue>Start</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>level</name>
+            <value>
+                <stringValue>INFO</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>stacktrace</name>
+            <value>
+                <stringValue>{!h_efc76524eafeef3dd258fb312484b6ea_Pharos_Template}</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>fullStacktrace</name>
+            <value>
+                <stringValue>{!Pharos_Full_Stacktrace}</stringValue>
+            </value>
+        </inputParameters>
+        <outputParameters>
+            <assignToReference>Pharos_Full_Stacktrace</assignToReference>
+            <name>fullStacktrace</name>
+        </outputParameters>
+    </actionCalls>
+    <apiVersion>68.0</apiVersion>
+    <description>Instrumented by Pharos Triton X-Ray. Manual edits may break its logging and stack-trace capture — re-run X-Ray after any change.</description>
+    <interviewLabel>Test DY Flow {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Test DY Flow (instrumented by Pharos X-Ray)</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordCreates>
+        <name>Test_Create_opp</name>
+        <label>Test Create opp</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>h_3c1410ba5b572e030a080f7d7d11d93f_PostLog</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>CloseDate</field>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Name</field>
+        </inputAssignments>
+        <inputAssignments>
+            <field>StageName</field>
+        </inputAssignments>
+        <object>Opportunity</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordCreates>
+    <start>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>h_537a98a1b6823cf5351e0c10fe33e4c2_PostPreLog</targetReference>
+        </connector>
+        <object>Account</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Draft</status>
+    <textTemplates>
+        <description>Pharos Flow Template for Log After: Test Create opp</description>
+        <name>h_4dbb75a3190bbae603d30d64ab419850_Pharos_Template</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>&lt;p&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;CREATE RECORDS: &lt;/span&gt;Test Create opp&lt;br&gt;
+&lt;span&gt;Create Opportunity record(s) with these field values:&lt;/span&gt;&lt;br&gt;
+&lt;span&gt;CloseDate = null&lt;/span&gt;&lt;br&gt;
+&lt;span&gt;Name = null&lt;/span&gt;&lt;br&gt;
+&lt;span&gt;StageName = null&lt;/span&gt;&lt;br&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;Result&lt;/span&gt;&lt;br&gt;
+&lt;span&gt;Test_Create_opp ({!Test_Create_opp})&lt;/span&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;(APEX): &lt;/span&gt;h_3c1410ba5b572e030a080f7d7d11d93f_PostLog&lt;br&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;Inputs:&lt;/span&gt;&lt;br&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;Outputs:&lt;/span&gt;&lt;br&gt;
+&lt;/p&gt;</text>
+    </textTemplates>
+    <textTemplates>
+        <description>Pharos Flow Template for Log After: Start, Before: Test Create opp</description>
+        <name>h_efc76524eafeef3dd258fb312484b6ea_Pharos_Template</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>&lt;!DOCTYPE html&gt;&lt;html&gt;&lt;head&gt;&lt;style&gt;
+span,a {
+ font-size: 16px;}&lt;/style&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;
+&lt;span&gt;&lt;img src=&quot;https://a.sfdcstatic.com/shared/images/c360-nav/mobile_logo.png&quot; alt=&quot;Salesforce logo&quot; width=&quot;40px&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size:x-large;font-weight:bold&quot;&gt;An Error Occurred with Your &quot;Test DY Flow&quot; Flow&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span&gt;You&apos;ve received this email because an error occurred while your &quot;Test DY Flow&quot; flow was running. &lt;a &gt;Debug this flow in Flow Builder.&lt;/a&gt;&lt;br&gt;&lt;/span&gt;&lt;br&gt;
+&lt;span&gt;Error element debug (FlowActionCall).&lt;/span&gt;&lt;br&gt;&lt;span&gt;Debug: end&lt;/span&gt;&lt;br&gt;&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;a style=&quot;background-color:#0176D3;border-radius:4px;color:white;padding:.5rem 1rem;text-decoration:none&quot;&gt;Open Flow&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;br&gt;&lt;span style=&quot;font-size:x-large;font-weight:bold&quot;&gt;Flow Error Details&lt;/span&gt;&lt;br&gt;&lt;br&gt;
+&lt;p&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;Flow Details&lt;/span&gt;&lt;br&gt;
+&lt;br&gt;&lt;span&gt;&lt;span style=&quot;font-weight:bold;&quot;&gt;Flow API Name: &lt;/span&gt;Test_DY_Flow&lt;/span&gt;&lt;br&gt;
+&lt;span&gt;&lt;span style=&quot;font-weight:bold;&quot;&gt;Type: &lt;/span&gt;Flow&lt;/span&gt;&lt;br&gt;
+&lt;span&gt;&lt;span style=&quot;font-weight:bold;&quot;&gt;Version: &lt;/span&gt;2&lt;/span&gt;&lt;br&gt;
+&lt;span&gt;&lt;span style=&quot;font-weight:bold;&quot;&gt;Status: &lt;/span&gt;Active&lt;/span&gt;&lt;br&gt;
+&lt;span&gt;&lt;span style=&quot;font-weight:bold;&quot;&gt;Org: &lt;/span&gt;{!$Organization.Id} ({!$Organization.Name})&lt;/span&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;br&gt;&lt;span style=&quot;font-weight:bold;&quot;&gt;Flow Interview Details&lt;/span&gt;&lt;br&gt;
+&lt;br&gt;&lt;span&gt;&lt;span style=&quot;font-weight:bold;&quot;&gt;Interview Label: &lt;/span&gt;Test DY Flow&lt;/span&gt;&lt;br&gt;
+&lt;span&gt;&lt;span style=&quot;font-weight:bold;&quot;&gt;Interview GUID: &lt;/span&gt;{!$Flow.InterviewGuid}&lt;/span&gt;&lt;br&gt;
+&lt;span&gt;&lt;span style=&quot;font-weight:bold;&quot;&gt;Current User: &lt;/span&gt;{!$User.FirstName} {!$User.LastName}&lt;/span&gt;&lt;br&gt;
+&lt;span&gt;&lt;span style=&quot;font-weight:bold;&quot;&gt;Start time: &lt;/span&gt;{!$Flow.InterviewStartTime}&lt;/span&gt;&lt;br&gt;
+&lt;span&gt;&lt;span style=&quot;font-weight:bold;&quot;&gt;Duration: &lt;/span&gt;0&lt;/span&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;br&gt;&lt;span style=&quot;font-weight:bold;&quot;&gt;How the Interview Started&lt;/span&gt;&lt;br&gt;
+&lt;span&gt;{!$User.FirstName} {!$User.LastName} ({!$User.Id}) started the flow interview.&lt;/span&gt;&lt;br&gt;
+&lt;span&gt;API Version for Running the Flow: 63.0&lt;/span&gt;&lt;br&gt;
+&lt;span&gt;Some of this flow&apos;s variables were set when the interview started.&lt;/span&gt;&lt;br&gt;
+&lt;span&gt;$Record = Account ({!$Record})&lt;/span&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;(APEX): &lt;/span&gt;h_537a98a1b6823cf5351e0c10fe33e4c2_PostPreLog&lt;br&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;Inputs:&lt;/span&gt;&lt;br&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;Outputs:&lt;/span&gt;&lt;br&gt;
+&lt;/p&gt;</text>
+    </textTemplates>
+    <variables>
+        <description>Pharos Full Stacktrace</description>
+        <name>Pharos_Full_Stacktrace</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <value>
+            <stringValue> </stringValue>
+        </value>
+    </variables>
+</Flow>
