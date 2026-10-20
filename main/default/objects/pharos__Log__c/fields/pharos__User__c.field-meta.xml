@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>pharos__User__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Formula: hyperlink showing the name of the user who triggered the logged event, linking to that user&apos;s record in the source org (built from Organization Url, User Id, and User Name).</description>
+    <externalId>false</externalId>
+    <formula>HYPERLINK(pharos__Organization_Url__c&amp;&apos;/&apos;&amp;pharos__User_Id__c, pharos__User_Name__c,&quot;_blank&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>The user who experienced or triggered this error. Click to open their user record in the source org.</inlineHelpText>
+    <label>User</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

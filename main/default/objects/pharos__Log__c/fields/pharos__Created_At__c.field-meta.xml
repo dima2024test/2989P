@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>pharos__Created_At__c</fullName>
+    <defaultValue>NOW()</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Date and time the logged event actually occurred in the source org, carried on the incoming log payload; defaults to the capture time (NOW()) when not supplied. Can differ from the record&apos;s CreatedDate, which reflects when the record was saved in this org.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>When the error or event actually happened. May differ slightly from when the log record was saved.</inlineHelpText>
+    <label>Created At</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>pharos__Apex_Name__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Name of the operation in which the problem occurred, extracted by Pharos when the log is captured - for example the Apex class and method parsed from the stack trace, or the failing job or flow entry point. Labeled &apos;Operation&apos; in the UI.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The operation that produced this log, such as the Apex class and method where the error occurred.</inlineHelpText>
+    <label>Operation</label>
+    <length>255</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

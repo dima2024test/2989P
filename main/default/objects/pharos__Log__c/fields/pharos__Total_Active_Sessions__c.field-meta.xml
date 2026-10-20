@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>pharos__Total_Active_Sessions__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Count of active user sessions in the source org, captured by asynchronous log post-processing shortly after the Log was created. Provides org-load context for diagnosing the error.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>How many user sessions were active in the org around the time of this log.</inlineHelpText>
+    <label>Total Active Sessions</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

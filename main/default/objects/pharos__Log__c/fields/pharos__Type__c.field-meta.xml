@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>pharos__Type__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Type of the error, extracted when the log is captured - typically the exception class (e.g. System.NullPointerException) or fault type; may be normalized to a canonical type during post-processing.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The kind of error this log records, such as the exception type.</inlineHelpText>
+    <label>Type</label>
+    <length>255</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

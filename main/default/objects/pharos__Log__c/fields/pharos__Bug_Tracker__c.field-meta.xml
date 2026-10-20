@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>pharos__Bug_Tracker__c</fullName>
+    <deprecated>false</deprecated>
+    <description>URL of the ticket created or linked for this log in an external ticketing system (e.g. Jira or Azure DevOps). Set by Pharos ticketing automation or manual ticket actions; cleared when the ticket link is removed.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Link to the ticket for this problem in your external bug tracker. Blank if no ticket has been created.</inlineHelpText>
+    <label>Bug Tracker</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Url</type>
+</CustomField>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>pharos__Flow_Version_Id__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Id of the specific flow version in which the fault occurred, resolved by asynchronous post-processing from the flow&apos;s describe information. Used to build the Flow Link.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The Id of the exact flow version that failed.</inlineHelpText>
+    <label>Flow Version Id</label>
+    <length>255</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>
