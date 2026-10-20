@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>pharos__Issue__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Lookup to the Issue this log is grouped into. Set by Pharos when the log is processed: logs with the same fingerprint hash are attached to the same Issue. The reference is cleared if the Issue is deleted.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The issue that groups this log with other occurrences of the same problem. Work the issue rather than individual logs.</inlineHelpText>
+    <label>Issue</label>
+    <referenceTo>pharos__Issue__c</referenceTo>
+    <relationshipLabel>Logs</relationshipLabel>
+    <relationshipName>Logs</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

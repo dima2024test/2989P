@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>pharos__Category__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Category of the log, set from the capture source when the log is created (for example Apex, Flow, LWC, Aura, Snapshot). Determines the log&apos;s record type and which sections appear on the log record page.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>What kind of activity this log records, based on where it was captured - for example an Apex error, a Flow fault, or a component (LWC/Aura) error.</inlineHelpText>
+    <label>Category</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Apex</fullName>
+                <default>false</default>
+                <label>Apex</label>
+            </value>
+            <value>
+                <fullName>Process Builder</fullName>
+                <default>false</default>
+                <label>Process Builder</label>
+            </value>
+            <value>
+                <fullName>Flow</fullName>
+                <default>false</default>
+                <label>Flow</label>
+            </value>
+            <value>
+                <fullName>Email-to-Case</fullName>
+                <default>false</default>
+                <label>Email-to-Case</label>
+            </value>
+            <value>
+                <fullName>Web-to-Case</fullName>
+                <default>false</default>
+                <label>Web-to-Case</label>
+            </value>
+            <value>
+                <fullName>Web-to-Lead</fullName>
+                <default>false</default>
+                <label>Web-to-Lead</label>
+            </value>
+            <value>
+                <fullName>Pharos Error</fullName>
+                <default>false</default>
+                <label>Pharos Error</label>
+            </value>
+            <value>
+                <fullName>Mulesoft</fullName>
+                <default>false</default>
+                <label>Mulesoft</label>
+            </value>
+            <value>
+                <fullName>OmniStudio</fullName>
+                <default>false</default>
+                <label>OmniStudio</label>
+            </value>
+            <value>
+                <fullName>LWC</fullName>
+                <default>false</default>
+                <label>LWC</label>
+            </value>
+            <value>
+                <fullName>Aura</fullName>
+                <default>false</default>
+                <label>Aura</label>
+            </value>
+            <value>
+                <fullName>Snapshot</fullName>
+                <default>false</default>
+                <label>Snapshot</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

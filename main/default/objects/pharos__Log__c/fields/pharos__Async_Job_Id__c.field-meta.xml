@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>pharos__Async_Job_Id__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Id of the asynchronous job (batch, queueable, future, or scheduled) in which the problem occurred, extracted when the log is captured. Also used by Pharos to relate and de-duplicate errors raised by the same job.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The Salesforce job Id of the asynchronous process this log came from.</inlineHelpText>
+    <label>Async Job Id</label>
+    <length>255</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

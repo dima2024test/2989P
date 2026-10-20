@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>pharos__First_Occurred_On__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Date and time this error (same fingerprint hash in the same org) was first seen, maintained by Pharos through its log index. Together with Created At it powers the Is New flag and recurrence analysis.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>When an error with this exact fingerprint was first seen in the org. If this matches Created At, the log is the first occurrence.</inlineHelpText>
+    <label>First Occurred On</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

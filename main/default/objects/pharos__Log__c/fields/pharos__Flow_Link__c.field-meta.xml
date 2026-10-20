@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>pharos__Flow_Link__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Formula: hyperlink that opens the failing flow version in Flow Builder in the source org (built from Organization Url, Flow Version Id, and Flow API Name). Blank when flow details are unavailable.</description>
+    <externalId>false</externalId>
+    <formula>HYPERLINK(pharos__Organization_Url__c&amp;&apos;/builder_platform_interaction/flowBuilder.app?isFromAloha=true&amp;flowId=&apos;&amp;pharos__Flow_Version_Id__c, pharos__Flow_API_Name__c,&quot;_blank&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Click to open the failing flow version directly in Flow Builder.</inlineHelpText>
+    <label>Flow Link</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

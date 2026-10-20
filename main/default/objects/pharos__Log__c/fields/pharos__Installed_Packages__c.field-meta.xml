@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>pharos__Installed_Packages__c</fullName>
+    <deprecated>false</deprecated>
+    <description>List of managed packages installed in the source org, captured by asynchronous log post-processing shortly after the Log is created. Provides environment context for diagnosing the error.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The packages installed in the org when this log occurred. Useful for checking whether a recent package version is involved.</inlineHelpText>
+    <label>Installed Packages</label>
+    <length>131072</length>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>6</visibleLines>
+</CustomField>

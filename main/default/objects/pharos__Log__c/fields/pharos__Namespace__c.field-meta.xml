@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>pharos__Namespace__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Package namespace of the code in which the problem occurred, parsed from the stack trace during capture and post-processing; set to &apos;unknown&apos; when it cannot be determined.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The managed package namespace the error came from, or &apos;unknown&apos; if it could not be determined.</inlineHelpText>
+    <label>Namespace</label>
+    <length>255</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

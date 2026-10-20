@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>pharos__Is_New__c</fullName>
+    <deprecated>false</deprecated>
+    <description>True if this is the first occurrence of this error. When the millisecond field First_Occurred_Timestamp__c is populated, compares it to Created_Timestamp__c so repeats within the same second are not falsely flagged as new. For historical/legacy logs where that field is blank, falls back to the original second-precision comparison of First_Occurred_On__c to Created_At__c.</description>
+    <externalId>false</externalId>
+    <formula>IF(
+  ISBLANK(pharos__First_Occurred_Timestamp__c),
+  pharos__First_Occurred_On__c == pharos__Created_At__c,
+  pharos__First_Occurred_Timestamp__c == pharos__Created_Timestamp__c
+)</formula>
+    <inlineHelpText>True if this is the first occurrence of this error</inlineHelpText>
+    <label>Is New</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

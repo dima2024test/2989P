@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>pharos__Stacktrace__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Raw stack trace or equivalent captured payload for this log - for example the Apex stack trace, batch error event stack trace, or source payload details, depending on the capture source. Parsed by Pharos to derive Operation, Namespace, and related context.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The stack trace or raw details captured with this log, showing where the failure happened.</inlineHelpText>
+    <label>Stacktrace</label>
+    <length>131072</length>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>6</visibleLines>
+</CustomField>
