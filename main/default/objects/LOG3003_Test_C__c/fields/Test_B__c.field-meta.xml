@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Test_B__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>LOG-3003 test lookup</description>
+    <externalId>false</externalId>
+    <label>Test B</label>
+    <referenceTo>LOG3003_Test_B__c</referenceTo>
+    <relationshipLabel>LOG3003 Test Cs</relationshipLabel>
+    <relationshipName>LOG3003_Test_Cs</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>
